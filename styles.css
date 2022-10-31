@@ -1,0 +1,223 @@
+/* Fond d'ecran et bordure de notre page*/
+.body{
+    background-color: #090909;
+    border: 1cm double #ff1750;
+}
+
+/* Lien de la barre de navigation en roboto et inline*/
+
+nav{
+    font-family: Roboto;
+    margin: 10px 200px 10px 400px;
+    display: inline;
+}
+.round{
+    border-radius: 15px;
+    border: 4px double white;
+}
+
+.accueil{
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    right: 5cm;
+    bottom: 1cm;
+    border-color: #ff1750;
+    border-style: solid;
+    
+}
+.apropos{
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    right: 4cm;
+    bottom: 1cm;
+    border-color: #ff1750;
+    border-style: solid;
+}
+.travail{
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    right: 3cm;
+    bottom: 1cm;
+    border-color: #ff1750;
+    border-style: solid;
+}
+.cv{
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    left: 1cm;
+    bottom: 1cm;
+    width: 50px;
+    text-align: center;
+    border-color: #ff1750;
+    border-style: solid;
+}
+.contact{
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    right: 4cm;
+    bottom: 1cm;
+    border-color: #ff1750;
+    border-style: solid;
+    
+}
+
+
+.portofolio{
+    color: white;
+    position: relative;
+    right: 9cm;
+    top: 1cm;
+    margin-bottom: 1px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.spanlio{
+    color: #f12a4e;
+}
+
+/* Mes bouttons Connexion et inscriptions de la barre de navigation*/
+.connexion{
+    display: inline;
+    padding: 7px;
+    position: relative;
+    bottom: 1cm;
+}
+
+.inscription{
+    display: inline;
+    padding: 7px;
+    position: relative;
+    left: 33cm;
+    bottom: 1cm;
+}
+
+/* Ma photo de profil et ma présentation à l'interieur de la boite de la photo*/
+
+.foto{
+    border: 1cm solid #fdfdfd;
+    margin: 1cm solid white
+    display: inline-block;
+    
+}
+.bonjour{
+    color: #c0a7bc;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+}
+.nom{
+    color: #fdfdfd;
+    font-family: Trebuchet MS;
+    font-size: 45px;
+
+}
+
+.christian{
+    color: #ff1a53;
+    font-family: Trebuchet MS;
+    font-size: 45px;
+}
+
+
+.developpeur{
+    color: #fdfdfd;
+    font-family: Trebuchet MS;
+    font-size: 35px;
+} 
+
+.myname{
+    margin-left: 13cm;
+    position:absolute;
+    top: 55%;
+    left: 1cm;
+    /* left: ; */
+}
+
+/*Lien de ma page Youtube*/
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ff1a53;
+}
+
+/*Insertion de vidéos youtube et bordure*/
+
+iframe{
+    border: 10px solid white;
+}
+
+
+/*formulaire en face de la vidéos youtube*/
+.Touteleformulaire{
+    margin-left: 13cm;
+    position:absolute;
+    top: 130%;
+    left: 14cm;
+    color: #fdfdfd;
+}
+.nomdeformulaire{
+    right: 2;5cm;
+    position:absolute;
+    bottom: 7cm;
+}
+.prenomdeformulaire{
+    right: 2;5cm;
+    position:absolute;
+    bottom: 7cm;
+}
+.emaildeformulaire{
+    right: 2;5cm;
+    position:absolute;
+    bottom: 5cm;
+}
+
+/* Le pied de page*/
+
+.footer{
+    height: 200px;
+    margin-top: 100px;
+    color: white;
+
+}
+
+/*taille de mon bloc developpement web*/
+.tailleblocfoot{
+    height: 50px;
+
+}
+
+/*Footer Division DEVELOPPEMENT WEB*/
+
+.margeblocDEVELOPPEUR{
+    margin-left: 1cm;
+    display: inline-block;
+}
+
+/*Footer Division WEB DESIGN*/
+
+.margeblocDESIGN{
+    margin-left: 4cm;
+    display: inline-block;
+}
+
+/*Footer Division COMMUNITY MANAGER*/
+
+.margeblocCOMMUNITY{
+    margin-left: 4cm;
+    display: inline-block;
+}
+
+/*Footer Division CONTACT*/
+
+.margeblocCONTACT{
+    margin-left: 4cm;
+    display: inline-block;
+}
